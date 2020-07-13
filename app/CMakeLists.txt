@@ -14,4 +14,4 @@
 project(hadouken-test.app)
 
 # Create an executagble target
-make_target(TYPE EXECUTABLE)
+make_target(TYPE EXECUTABLE LINK PRIVATE hadouken-test.lib.shared)
